@@ -12,6 +12,11 @@ import com.dhruv.radial_quick_actions.model.QuickAction
 import kotlin.math.cos
 import kotlin.math.sin
 
+/**
+ * draws the actual buttons
+ * @param viewModel the model used to store the data about state
+ * @param actionItem the composable for every individual button that uses a modifier to get position, data object ,and boolean to be used when the button is focused
+ */
 @Composable
 fun RadialQuickActionVisual(
     modifier: Modifier = Modifier,
