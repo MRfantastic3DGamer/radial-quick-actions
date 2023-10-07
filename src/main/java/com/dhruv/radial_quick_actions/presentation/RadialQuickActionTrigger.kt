@@ -7,6 +7,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.pointer.pointerInput
 import com.dhruv.radial_quick_actions.RadialQuickActionViewModel
 
+/**
+ * the trigger used for taking input and updating state values
+ */
 @Composable
 fun RadialQuickActionTrigger (
     modifier: Modifier = Modifier,
