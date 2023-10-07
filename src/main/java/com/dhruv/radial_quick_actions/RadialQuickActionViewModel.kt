@@ -13,6 +13,11 @@ import kotlin.math.max
 import kotlin.math.min
 import kotlin.math.sqrt
 
+/**
+ * the main view model
+ * @param actions list for children of BaseQuickAction
+ * @param selectionRadios when touch drags less than this amount, no button is selected
+ */
 class RadialQuickActionViewModel(
     val actions: List<QuickAction>,
     private val selectionRadios: Float = 200F,
