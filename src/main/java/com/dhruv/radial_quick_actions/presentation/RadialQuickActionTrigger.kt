@@ -13,9 +13,8 @@ import com.dhruv.radial_quick_actions.RadialQuickActionViewModel
 @Composable
 fun RadialQuickActionTrigger (
     modifier: Modifier = Modifier,
-    viewModel: RadialQuickActionViewModel,
-
-    ) {
+    viewModel: RadialQuickActionViewModel
+) {
     Box (
         modifier = modifier
             .pointerInput(Unit) {
